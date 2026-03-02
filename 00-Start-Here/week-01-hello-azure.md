@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="00-Start-Here/Images/banner.png" width="900">
+</p>
 # Week 01 — Hello Azure (Azure CLI Proof)
 
 ## Goal
