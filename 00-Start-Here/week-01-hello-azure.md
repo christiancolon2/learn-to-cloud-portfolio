@@ -14,57 +14,74 @@ Prove I can authenticate and manage Azure resources using the Azure CLI.
 az version
 ```
 
-[Azure Version](Link Here)
+- azure-cli: "2.83.0"
+  [Azure Version](/00-Start-Here/Images/az-version.png)
+
+## 2) Login
 
 ```bash
 az login
 ```
 
+**Result**
+
+- Login completed successfully
+  [Login Completed](/00-Start-Here/Images/login-successful.png)
+
+## 3) Confirm Account/Subscription
+
 ```bash
 az account show
 ```
 
-[Account Show](Link Here)
+**Result**
+
+- Subscription Name: "Testing"
+  [Account Show](/00-Start-Here/Images/az-account-show.png)
 
 ```bash
 az account list --output table
 ```
 
-**If you have more than one subscription, set the one you want:**
+[AZ Account List](/00-Start-Here/Images/account-list-table.png)
 
-```bash
-az account set --subscription "SUBSCRIPTION_NAME_OR_ID"
-```
-
-**Create a Resource Group(CLI)**
-
-- Resource group: rg-week01-hello-azure
-- Location: eastus (or whatever region you prefer)
+## 4) Create Resource Group
 
 ```bash
 az group create --name rg-week01-hello-azure --location eastus
 ```
 
-[Resource Group Created](Link Here)
+**Result:**
+
+- provisioningState:Succeeded
+  [Resource Group Created](/00-Start-Here/Images/resource-group-created.png)
+
+## 5) List Resource Group
 
 ```bash
 az group list --output table
 ```
 
-[Resource Group table](Link Here)
+**Result**
 
-```bash
-az group show --name rg-week01-hello-azure
-```
+- I can see rg-week01-hello-azure in the table output.
+  [Resource Group Table](/00-Start-Here/Images/resource-group-table.png)
 
-## 6) Delete IT (CLI) - Cleanup Proof
+## 6) Delete Resource Group
+
+**Command**
 
 ```bash
 az group delete --name rg-week01-hello-azure --yes --no-wait
 ```
 
-**Confirm It's Gone**
+**Confirm deletion Command:**
 
 ```bash
 az group exists --name rg-week01-hello-azure
 ```
+
+**Result**
+
+- false
+  [False Result](/00-Start-Here/Images/false-result.png)
