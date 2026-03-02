@@ -15,7 +15,8 @@ az version
 ```
 
 - azure-cli: "2.83.0"
-  [Azure Version](/00-Start-Here/Images/az-version.png)
+
+![Azure Version](/00-Start-Here/Images/az-version.png)
 
 ## 2) Login
 
