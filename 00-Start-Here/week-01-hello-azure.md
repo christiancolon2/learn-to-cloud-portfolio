@@ -31,7 +31,8 @@ az login
 **Result**
 
 - Login completed successfully
-  ![Login Completed](/00-Start-Here/Images/login-successful.png)
+
+![Login Completed](/00-Start-Here/Images/login-successful.png)
 
 ## 3) Confirm Account/Subscription
 
@@ -42,7 +43,8 @@ az account show
 **Result**
 
 - Subscription Name: "Testing"
-  ![Account Show](/00-Start-Here/Images/az-account-show.png)
+
+![Account Show](/00-Start-Here/Images/az-account-show.png)
 
 ```bash
 az account list --output table
@@ -59,7 +61,8 @@ az group create --name rg-week01-hello-azure --location eastus
 **Result:**
 
 - provisioningState:Succeeded
-  ![Resource Group Created](/00-Start-Here/Images/resource-group-created.png)
+
+![Resource Group Created](/00-Start-Here/Images/resource-group-created.png)
 
 ## 5) List Resource Group
 
@@ -70,7 +73,8 @@ az group list --output table
 **Result**
 
 - I can see rg-week01-hello-azure in the table output.
-  ![Resource Group Table](/00-Start-Here/Images/resource-group-table.png)
+
+![Resource Group Table](/00-Start-Here/Images/resource-group-table.png)
 
 ## 6) Delete Resource Group
 
@@ -89,4 +93,5 @@ az group exists --name rg-week01-hello-azure
 **Result**
 
 - false
-  ![False Result](/00-Start-Here/Images/false-result.png)
+
+![False Result](/00-Start-Here/Images/false-result.png)
