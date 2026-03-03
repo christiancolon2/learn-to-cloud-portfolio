@@ -1,4 +1,6 @@
-# What is Linux
+<p align="center">
+  <img src="/00-Start-Here/Images/banner.png" width="900">
+</p># What is Linux
 
 ## Bash Scripting and Command Line for Beginners
 
@@ -24,3 +26,6 @@
 - So:
   - **Shell** - general name for command line programs
   - **Bash** - a specific and very popular shell
+- **ps** - command lets you know the type of shell you are using.
+
+[ps command results](/01-Phase-0-Starting-From-Zero/screenshots/ps-command-results.png)
