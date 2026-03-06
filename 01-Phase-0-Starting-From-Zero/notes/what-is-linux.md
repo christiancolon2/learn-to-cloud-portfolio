@@ -31,3 +31,16 @@
 - **ps** - command lets you know the type of shell you are using.
 
 ![ps command results](/01-Phase-0-Starting-From-Zero/screenshots/ps-command-results.png)
+
+- **Commands** follow the this syntax:
+
+```bash
+command [OPTIONS] arguments
+```
+
+- **date** - displays the current date
+
+```bash
+zaira@Zaira:~/shell-tutorial$ date
+Tue Mar 14 13:08:57 PKT 2023
+```
