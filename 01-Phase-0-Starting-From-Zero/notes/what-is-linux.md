@@ -44,3 +44,30 @@ command [OPTIONS] arguments
 zaira@Zaira:~/shell-tutorial$ date
 Tue Mar 14 13:08:57 PKT 2023
 ```
+
+- **pwd** - shows the current folder (directory) you are in.
+
+```bash
+zaira@Zaira:~/shell-tutorial$ pwd
+/home/zaira/shell-tutorial
+```
+
+- **ls** - shows the files and folders inside the current directory
+
+```bash
+zaira@Zaira:~/shell-tutorial$ ls
+check_plaindrome.sh  count_odd.sh  env  log  temp
+```
+
+- **echo** - used to display messages or output words on the command line
+
+```bash
+zaira@Zaira:~/shell-tutorial$ echo "Hello bash"
+Hello bash
+```
+
+- **man** - shows the help page for a comman. The page explains what the command does and how to use it.
+
+- **shebang** - is the first line in a script that tells the system which program should run the script.
+  - **#!** tells the system this is a shebang line.
+  - **/bin/bash** tells the system to run the script using Bash.
