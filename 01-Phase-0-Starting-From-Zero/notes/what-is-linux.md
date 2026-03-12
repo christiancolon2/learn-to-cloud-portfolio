@@ -71,3 +71,25 @@ Hello bash
 - **shebang** - is the first line in a script that tells the system which program should run the script.
   - **#!** tells the system this is a shebang line.
   - **/bin/bash** tells the system to run the script using Bash.
+
+- **which** - shows the location of a command's program file on your system.
+
+- **vi** lets your create, view, and edit files directly in the terminal.
+- **#** - starts a comment. Anything after **#** is ignored by the computer. It is only for humans to read.
+
+- **Variable** - is a name used to store a value.
+
+```bash
+name="Chris"
+```
+
+### Variable Naming Rules
+
+- Variable names must start with a letter or underscore
+- They can include letters, numbers, and underscores
+- Variable names are case sensitive, so **name** and **Name** are different.
+- Variable names cannot have spaces or special characters
+- Use clear names that describe what the variable stores
+- Do not use Bash words like if, then, else or fi as variable names.
+
+- **read** - is a bash command that takes input from the user or from a file and stores it in a variable.
